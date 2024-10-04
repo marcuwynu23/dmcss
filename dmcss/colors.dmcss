@@ -1,0 +1,5 @@
+:root {
+  --primary-color: lightblue;
+  --secondary-color: lightgreen;
+  --tertiary-color: blue;
+}

@@ -1,0 +1,12 @@
+body  {
+    background-color: var(--secondary-color);
+    font-size: 16px;
+}
+h1 {
+    font-size: 30pt;
+    color: var(--secondary-color);
+}
+
+p{
+    background-color: var(--secondary-color);
+}

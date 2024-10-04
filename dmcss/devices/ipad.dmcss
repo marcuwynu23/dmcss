@@ -1,0 +1,11 @@
+body  {
+    background-color: var(--primary-color);
+    font-size: 18px;
+}
+
+h1 {
+    color: var(--secondary-color);
+}
+p{
+    background-color: var(--primary-color);
+}

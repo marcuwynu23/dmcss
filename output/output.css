@@ -1,0 +1,72 @@
+:root {
+  --primary-color: lightblue;
+  --secondary-color: lightgreen;
+  --tertiary-color: blue;
+}
+
+
+@media (width: 414px) and (height: 896px) {
+  .device-iphone-xr body   {
+    background-color: var(--secondary-color);
+    font-size: 16px;
+  }
+    
+  .device-iphone-xr p {
+    background-color: red;
+  }
+}
+
+@media (width: 375px) and (height: 667px) {
+  .device-iphone-se body   {
+    background-color: var(--primary-color);
+    font-size: 16px;
+  }
+    
+  .device-iphone-se p {
+    background-color: var(--tertiary-color);
+  }
+}
+
+@media (width: 390px) and (height: 844px) {
+  .device-iphone-12-pro body   {
+    background-color: var(--secondary-color);
+    font-size: 16px;
+  }
+  .device-iphone-12-pro h1  {
+    font-size: 30pt;
+    color: var(--secondary-color);
+  }
+    
+  .device-iphone-12-pro p {
+    background-color: var(--secondary-color);
+  }
+}
+
+@media (width: 768px) and (height: 1024px) {
+  .device-ipad body   {
+    background-color: var(--primary-color);
+    font-size: 18px;
+  }
+    
+  .device-ipad h1  {
+    color: var(--secondary-color);
+  }
+  .device-ipad p {
+    background-color: var(--primary-color);
+  }
+}
+
+@media (width: 430px) and (height: 932px) {
+    /* Styles for iphone-pro-max */
+  .device-iphone-pro-max body  {
+    /* Add styles here */
+  }
+}
+
+@media (width: 412px) and (height: 915px) {
+    /* Styles for pixel-7 */
+  .device-pixel-7 body  {
+    /* Add styles here */
+  }
+}
+

@@ -1,0 +1,7 @@
+@import "colors.dmcss";
+$$device(name: "iphone-xr", width: 414px, height: 896px) 
+$$device(name: "iphone-se", width: 375px, height: 667px)
+$$device(name: "iphone-12-pro", width: 390px, height: 844px)
+$$device(name: "ipad", width: 768px, height: 1024px)
+$$device(name: "iphone-pro-max", width: 430px, height: 932px)
+$$device(name: "pixel-7", width: 412px, height: 915px)
