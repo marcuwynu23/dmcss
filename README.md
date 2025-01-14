@@ -1,6 +1,16 @@
-# DMCSS - Device Media Cascading Style Sheet
+<div align="center">
+  <h1> DMCSS </h1>
+</div>
 
-**DMCSS** (Device Media Cascading Style Sheet) is a custom CSS transpiler designed to simplify and automate the creation of responsive, device-specific styles. It allows developers to target specific devices by screen dimensions using an easy-to-read syntax and provides modular, maintainable device-specific styles using `.dmcss` files.
+<p align="center">
+  <img src="https://img.shields.io/github/stars/marcuwynu23/dmcss.svg" alt="Stars Badge"/>
+  <img src="https://img.shields.io/github/forks/marcuwynu23/dmcss.svg" alt="Forks Badge"/>
+  <img src="https://img.shields.io/github/issues/marcuwynu23/dmcss.svg" alt="Issues Badge"/>
+  <img src="https://img.shields.io/github/license/marcuwynu23/dmcss.svg" alt="License Badge"/>
+</p>
+
+
+**DMCSS** (Device Media Cascading Style Sheet) is a custom CSS transpiler designed to simplify and dmcssmate the creation of responsive, device-specific styles. It allows developers to target specific devices by screen dimensions using an easy-to-read syntax and provides modular, maintainable device-specific styles using `.dmcss` files.
 
 ## Introduction
 
@@ -10,7 +20,7 @@ With DMCSS, you can:
 
 - Write clean, device-specific styles using a custom `$$device` syntax.
 - Modularize your CSS by keeping device-specific styles in separate files within a `device` folder.
-- Automatically generate media queries based on device dimensions to ensure a seamless responsive design.
+- dmcssmatically generate media queries based on device dimensions to ensure a seamless responsive design.
 
 ## When to Use DMCSS
 
@@ -160,7 +170,7 @@ project/
 - **Custom `$$device` Syntax**: Define device-specific media queries easily with the `$$device` syntax.
 - **Modular Device-Specific Styles**: Store styles for each device in its own file within the `device` folder.
 - **@import Support**: Modularize your DMCSS code using `@import`, so you can split common styles like colors and variables into separate files.
-- **Responsive Media Queries**: Automatically generate media queries based on the width and height of the targeted device.
+- **Responsive Media Queries**: dmcssmatically generate media queries based on the width and height of the targeted device.
 - **Reduced CSS Bloat**: Only generate the CSS needed for specific devices, optimizing for performance.
 
 ## When to Use
